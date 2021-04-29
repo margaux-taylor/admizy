@@ -1,0 +1,56 @@
+
+.banner {
+  background-image: url(contenu/vasily-koloda.jpg);
+	background-size: cover;  
+	background-position: center;
+	padding: 100px 0px;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 50px;
+  padding-left: 150px
+}
+.banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+  padding-left: 150px;
+  margin-bottom: 40px;
+}
+
+.banner {
+  background-image:
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.5) 50%),
+    url('contenu/vasily-koloda.jpg');
+}
+
+.banner-with-flat-filter {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('contenu/vasily-koloda.jpg');
+}
+
+.btn-blue {
+	background-color: white; 
+	color: #F5B133;
+	text-decoration: none;
+	border-radius: 30px;
+	padding: 10px 25px;
+	text-align: center;
+	border: 2px solid #F5B133;
+}
+
+.btn-blue:hover {
+	background-color: #F5B133;
+	color: white;
+	opacity: 0,8;
+}
+
+.list-inline {
+	padding-left: 130px
+}
+
+.list-inline2 {
+	padding-left: 0px
+}
+
